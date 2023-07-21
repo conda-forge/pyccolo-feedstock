@@ -1,11 +1,11 @@
-About pyccolo
-=============
+About pyccolo-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyccolo-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/smacke/pyccolo
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyccolo-feedstock/blob/main/LICENSE.txt)
 
 Summary: Declarative instrumentation for Python
 
