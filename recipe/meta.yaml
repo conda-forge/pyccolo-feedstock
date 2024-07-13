@@ -1,5 +1,5 @@
 {% set name = "pyccolo" %}
-{% set version = "0.0.55" %}
+{% set version = "0.0.58" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyccolo-{{ version }}.tar.gz
-  sha256: 9054c016629225a2721ac6f6ac958c8109ee27fba8c4071d3639228f215bd162
+  sha256: 2a67d0684f32ddde73584f14385908412137da1a47525505fa84a9fd330b6e00
 
 build:
   entry_points:
