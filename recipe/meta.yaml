@@ -20,12 +20,12 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python {{ python_min }}
     - setuptools >=48
     - setuptools-git-versioning
     - wheel >=0.30.0
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - traitlets
     - typing_extensions
 
@@ -38,6 +38,7 @@ test:
     - pyccolo --help
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/smacke/pyccolo
