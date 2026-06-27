@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pyccolo
-  version: "0.0.86"
+  version: "0.0.88"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pyccolo-${{ version }}.tar.gz
-  sha256: 7d64e3cbf007adda000308048c7f384b11f933be9005062e6312ba4b9366f193
+  sha256: b4e15ae3afe24a12012d96ea7ffa723e3a766d2455f71cbc861e994f0313b5d9
 
 build:
   number: 0
